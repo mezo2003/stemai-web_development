@@ -1,0 +1,109 @@
+.head {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 20px;
+    width: 100px;
+}
+
+body {
+    margin-left: 35px;
+    font-family: Arial, sans-serif;
+}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tfoot td {
+    text-align: right;
+  }
+  
+  tfoot td span {
+    font-weight: normal;
+  }
+
+/* magic of styling XD */
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="password"],
+input[type="email"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="password"]:focus,
+input[type="email"]  {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+
+.head {
+  width: 280px;
+  margin: auto;
+}
+
+/* delete from this point */
+
+tag {
+  border-width: 0px, 0px, 0px, 0px;
+  border-color: red, green, blue, yellow;
+  border-style: solid, solid, solid, solid;
+  border: 10px, solid, red;/* no 4 values */
+}
